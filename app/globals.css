@@ -10,6 +10,15 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-red-500: hsl(1 90% 64%);
+  --color-blue-950: hsl(219 85% 26%);
+  --color-white: hsl(0 100% 100%);
+  --color-navy-50: hsl(210 60% 98%);
+  --color-blue-100: hsl(211 68% 94%);
+  --color-navy-100: hsl(205 33% 90%);
+  --color-gray-500: hsl(219 14% 63%);
+  --color-gray-600: hsl(219 12% 42%);
+  --color-navy-950: hsl(224 21% 14%);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,5 +31,9 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+}
+
+p {
+  font-size: 16px;
 }
